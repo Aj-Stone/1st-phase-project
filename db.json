@@ -1,0 +1,24 @@
+{
+  "chords": [
+    {
+      "id": 1,
+      "name": "G Chord",
+      "image": "https://www.cyberfret.com/wp-content/uploads/g-major-guitar-chord-1.gif"
+    },
+    {
+      "id": 2,
+      "name": "C Chord",
+      "image": "https://www.cyberfret.com/wp-content/uploads/2012/04/c-major-guitar-chord-chart.gif"
+    },
+    {
+      "id": 3,
+      "name": "D Chord",
+      "image": "https://www.cyberfret.com/wp-content/uploads/2012/06/d-guitar-chord-chart.gif"
+    },
+    {
+      "id": 4,
+      "name": "E Chord",
+      "image": "https://www.cyberfret.com/wp-content/uploads/2000/08/e-basic-guitar-chord-chart.gif"
+    }
+  ]
+}
