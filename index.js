@@ -11,6 +11,10 @@ function appendChord(chord){
   document.querySelector('#chord-content').appendChild(list)
 }
 
+// document.addEventListener('click', () => {
+//   event.target.
+// })
+
 function getChords(){
   fetch('http://localhost:3000/chords')
   .then(res=>res.json())
