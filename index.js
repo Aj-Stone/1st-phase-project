@@ -1,5 +1,5 @@
 function appendChord(chord){
-  let list = document.createElement("li")
+  let list = document.createElement("ul")
   list.className = "strums"
   list.innerHTML = `
   <h2>${chord.name}</h2>

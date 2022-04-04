@@ -1,1 +1,13 @@
-#intro{text-align: center;}
+#intro{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#title{
+  font-size: 75px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: saddlebrown
+}
+
+body{margin-left: 1em;}
