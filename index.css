@@ -31,6 +31,9 @@ p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.insert{
+#chord-content{
+  list-style: none;
   margin-left: 7%;
 }
+
+.insert{ display: inline}
