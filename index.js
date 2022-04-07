@@ -33,6 +33,8 @@ document.addEventListener('click', () => {
   }
 })
 
+
+
 function getChords(){
   fetch('http://localhost:3000/chords')
   .then(res=>res.json())

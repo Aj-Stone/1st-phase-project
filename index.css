@@ -36,4 +36,7 @@ p{
   margin-left: 7%;
 }
 
-.insert{ display: inline}
+#comments{
+  margin-left: 10%;
+  margin-bottom:100px;
+}
