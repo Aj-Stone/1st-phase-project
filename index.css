@@ -1,7 +1,7 @@
 #intro{
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom:5%
 }
 
@@ -20,8 +20,8 @@ h2{
 
 #basics{
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 5%;
 }
 
@@ -33,10 +33,29 @@ p{
 
 #chord-content{
   list-style: none;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 #comments{
-  margin-left: 10%;
+  margin-left: 15%;
   margin-bottom:100px;
+}
+
+body{
+  background-image: url("https://media.istockphoto.com/photos/acoustic-guitar-picture-id156547833?k=20&m=156547833&s=612x612&w=0&h=dsn9GASv6xnVHTC2dIRBmfuJ72XIqFlV4YIxzP4NzvI="), url("https://media.istockphoto.com/photos/acoustic-guitar-picture-id156547833?k=20&m=156547833&s=612x612&w=0&h=dsn9GASv6xnVHTC2dIRBmfuJ72XIqFlV4YIxzP4NzvI=");
+  background-repeat: repeat-y, repeat-y;
+  background-size: 250px 300px, 250px 300px;
+  background-position: top right, top left;
+}
+
+#tube{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-top: 50px
+}
+
+#play{
+  text-align: left;
 }
