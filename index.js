@@ -33,7 +33,36 @@ document.addEventListener('click', () => {
   }
 })
 
+// function addComment(thing){
+//   let p = document.createTextNode(thing)
+//   document.querySelector("#c-section").appendChild(p)
+// }
 
+// document.addEventListener('DOMContentLoaded', () => {
+//   let form = document.querySelector('form')
+//   form.addEventListner('submit', (e) => {
+//     e.preventDefault()
+//     console.log(e)
+//   })
+// })
+
+document.querySelector("#c_box").addEventListener('keydown', (event) => {
+  if(event.key === "Enter"){
+    const theComment = document.querySelector("#c_box").value
+    const theLi = document.createElement("li")
+    const text = document.createTextNode(theComment)
+    theLi.appendChild(text)
+    document.getElementById('c-section').appendChild(theLi)
+  }
+})
+
+document.querySelector("#c-button").addEventListener('click', (event) => {
+  const theComment = document.querySelector("#c_box").value
+  const theLi = document.createElement("li")
+  const text = document.createTextNode(theComment)
+  theLi.appendChild(text)
+  document.getElementById('c-section').appendChild(theLi)
+})
 
 function getChords(){
   fetch('http://localhost:3000/chords')
