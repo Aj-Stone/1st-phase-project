@@ -30,4 +30,7 @@ body{
   background-repeat: repeat-y;
 }
 ```
+## Credits
 
+* Guitareo YouTube video: [Play 10 Songs With 4 Chords - Free Guitar Lessons](https://www.youtube.com/watch?v=8OS0DSle5hU)
+* Cyberfret images: [Cyberfret.com](https://www.cyberfret.com/)
